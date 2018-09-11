@@ -63,12 +63,12 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.comboBox_4.sizePolicy().hasHeightForWidth())
         self.comboBox_4.setSizePolicy(sizePolicy)
         self.comboBox_4.setObjectName("comboBox_4")
-        self.comboBox_4.addItem("")
-        self.comboBox_4.addItem("")
-        self.comboBox_4.addItem("")
-        self.comboBox_4.addItem("")
-        self.comboBox_4.addItem("")
-        self.comboBox_4.addItem("")
+        self.comboBox_4.addItem("cap45a1")
+        self.comboBox_4.addItem("cap45a2")
+        self.comboBox_4.addItem("cap60a1")
+        self.comboBox_4.addItem("cap60a2")
+        self.comboBox_4.addItem("cap90a1")
+        self.comboBox_4.addItem("cap90a2")
         self.comboBox_4.addItem("")
         self.comboBox_4.setItemText(6, "")
         self.gridLayout_2.addWidget(self.comboBox_4, 2, 0, 1, 1, QtCore.Qt.AlignHCenter)
@@ -246,7 +246,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("Cap_configurate", "Cap_configurate"))
+        """
         self.label_2.setText(_translate("MainWindow", "TextLabel"))
         self.comboBox_4.setItemText(0, _translate("MainWindow", "0"))
         self.comboBox_4.setItemText(1, _translate("MainWindow", "1"))
@@ -289,11 +290,13 @@ class Ui_MainWindow(object):
         self.comboBox_1.setItemText(3, _translate("MainWindow", "3"))
         self.comboBox_1.setItemText(4, _translate("MainWindow", "4"))
         self.comboBox_1.setItemText(5, _translate("MainWindow", "5"))
+        """
         self.menuCap_Tool.setTitle(_translate("MainWindow", "Cap Tool"))
         self.menuInfo.setTitle(_translate("MainWindow", "Info"))
         self.action_Author_Mikoy.setText(_translate("MainWindow", "__Author__: Mikoy"))
         self.actionEmail_mikoychinese_gmail_com.setText(_translate("MainWindow", "Email: mikoychinese@gmail.com"))
         self.actionHelp.setText(_translate("MainWindow", "Help"))
+
 
 
 if __name__ == '__main__':
