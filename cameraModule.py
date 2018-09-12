@@ -48,6 +48,12 @@ class Camera():
             self.cap_timer.start()
         except BaseException:
             self.cap_timer.stop()
+            self.cap_timer.quit()
+
+    def quit(self):
+        self.cap_timer.stop()
+        self.cap_timer.quit()
+        self.cap_timer.wait(500)
 
 
 class Camera_Timer(QThread):
@@ -58,9 +64,6 @@ class Camera_Timer(QThread):
         self.mutex = QMutex()
 
     def run(self):
-        with QMutexLocker(self.mutex):
-            self.stoped = False
-
         while not self.stoped:
             self.update.emit()
             time.sleep(0.3)
@@ -68,6 +71,7 @@ class Camera_Timer(QThread):
     def stop(self):
         with QMutexLocker(self.mutex):
             self.stoped = True
+
 
     def isStoped(self):
         with QMutexLocker(self.mutex):

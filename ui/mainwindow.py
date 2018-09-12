@@ -5,18 +5,11 @@
 # Created by: PyQt5 UI code generator 5.9
 #
 # WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
-from PyQt5 import QtCore, QtGui, QtWidgets
+from ui.component import basicLabel, basicComboBox
 
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'mainwindow.ui'
-#
-# Created by: PyQt5 UI code generator 5.9
-#
-# WARNING! All changes made in this file will be lost!
-
-from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -45,177 +38,105 @@ class Ui_MainWindow(object):
         self.gridLayout_2.setHorizontalSpacing(4)
         self.gridLayout_2.setVerticalSpacing(3)
         self.gridLayout_2.setObjectName("gridLayout_2")
-        self.label_2 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_2.sizePolicy().hasHeightForWidth())
-        self.label_2.setSizePolicy(sizePolicy)
-        self.label_2.setMinimumSize(QtCore.QSize(417, 307))
-        self.label_2.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_2.setObjectName("label_2")
-        self.gridLayout_2.addWidget(self.label_2, 1, 1, 1, 1)
-        self.comboBox_4 = QtWidgets.QComboBox(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.comboBox_4.sizePolicy().hasHeightForWidth())
-        self.comboBox_4.setSizePolicy(sizePolicy)
-        self.comboBox_4.setObjectName("comboBox_4")
-        self.comboBox_4.addItem("cap45a1")
-        self.comboBox_4.addItem("cap45a2")
-        self.comboBox_4.addItem("cap60a1")
-        self.comboBox_4.addItem("cap60a2")
-        self.comboBox_4.addItem("cap90a1")
-        self.comboBox_4.addItem("cap90a2")
-        self.comboBox_4.addItem("")
-        self.comboBox_4.setItemText(6, "")
-        self.gridLayout_2.addWidget(self.comboBox_4, 2, 0, 1, 1, QtCore.Qt.AlignHCenter)
-        self.label_3 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_3.sizePolicy().hasHeightForWidth())
-        self.label_3.setSizePolicy(sizePolicy)
-        self.label_3.setMinimumSize(QtCore.QSize(417, 307))
-        self.label_3.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_3.setObjectName("label_3")
-        self.gridLayout_2.addWidget(self.label_3, 1, 2, 1, 1)
-        self.label_1 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_1.sizePolicy().hasHeightForWidth())
-        self.label_1.setSizePolicy(sizePolicy)
-        self.label_1.setMinimumSize(QtCore.QSize(417, 307))
-        self.label_1.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_1.setScaledContents(True)
-        self.label_1.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_1.setObjectName("label_1")
+
+        self.label_1 = basicLabel(label_name='label_1',
+                                  parent=self.centralWidget)
+        self.label_2 = basicLabel(label_name='label_2',
+                                  parent=self.centralWidget)
+        self.label_3 = basicLabel(label_name='label_3',
+                                  parent=self.centralWidget)
+        self.label_4 = basicLabel(label_name='label_4',
+                                  parent=self.centralWidget)
+        self.label_5 = basicLabel(label_name='label_5',
+                                  parent=self.centralWidget)
+        self.label_6 = basicLabel(label_name='label_6',
+                                  parent=self.centralWidget)
+
         self.gridLayout_2.addWidget(self.label_1, 1, 0, 1, 1)
-        self.comboBox_5 = QtWidgets.QComboBox(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.comboBox_5.sizePolicy().hasHeightForWidth())
-        self.comboBox_5.setSizePolicy(sizePolicy)
-        self.comboBox_5.setObjectName("comboBox_5")
-        self.comboBox_5.addItem("")
-        self.comboBox_5.addItem("")
-        self.comboBox_5.addItem("")
-        self.comboBox_5.addItem("")
-        self.comboBox_5.addItem("")
-        self.comboBox_5.addItem("")
-        self.gridLayout_2.addWidget(self.comboBox_5, 2, 1, 1, 1, QtCore.Qt.AlignHCenter)
-        self.label_4 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_4.sizePolicy().hasHeightForWidth())
-        self.label_4.setSizePolicy(sizePolicy)
-        self.label_4.setMinimumSize(QtCore.QSize(417, 307))
-        self.label_4.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_4.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_4.setObjectName("label_4")
+        self.gridLayout_2.addWidget(self.label_2, 1, 1, 1, 1)
+        self.gridLayout_2.addWidget(self.label_3, 1, 2, 1, 1)
         self.gridLayout_2.addWidget(self.label_4, 3, 0, 1, 1)
-        self.comboBox_6 = QtWidgets.QComboBox(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.comboBox_6.sizePolicy().hasHeightForWidth())
-        self.comboBox_6.setSizePolicy(sizePolicy)
-        self.comboBox_6.setObjectName("comboBox_6")
-        self.comboBox_6.addItem("")
-        self.comboBox_6.addItem("")
-        self.comboBox_6.addItem("")
-        self.comboBox_6.addItem("")
-        self.comboBox_6.addItem("")
-        self.comboBox_6.addItem("")
-        self.gridLayout_2.addWidget(self.comboBox_6, 2, 2, 1, 1, QtCore.Qt.AlignHCenter)
-        self.label_6 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_6.sizePolicy().hasHeightForWidth())
-        self.label_6.setSizePolicy(sizePolicy)
-        self.label_6.setMinimumSize(QtCore.QSize(417, 307))
-        self.label_6.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_6.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_6.setObjectName("label_6")
-        self.gridLayout_2.addWidget(self.label_6, 3, 2, 1, 1)
-        self.comboBox_2 = QtWidgets.QComboBox(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.comboBox_2.sizePolicy().hasHeightForWidth())
-        self.comboBox_2.setSizePolicy(sizePolicy)
-        self.comboBox_2.setIconSize(QtCore.QSize(8, 8))
-        self.comboBox_2.setObjectName("comboBox_2")
-        self.comboBox_2.addItem("")
-        self.comboBox_2.addItem("")
-        self.comboBox_2.addItem("")
-        self.comboBox_2.addItem("")
-        self.comboBox_2.addItem("")
-        self.comboBox_2.addItem("")
-        self.gridLayout_2.addWidget(self.comboBox_2, 0, 1, 1, 1, QtCore.Qt.AlignHCenter)
-        self.label_5 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_5.sizePolicy().hasHeightForWidth())
-        self.label_5.setSizePolicy(sizePolicy)
-        self.label_5.setMinimumSize(QtCore.QSize(417, 307))
-        self.label_5.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_5.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_5.setObjectName("label_5")
         self.gridLayout_2.addWidget(self.label_5, 3, 1, 1, 1)
-        self.comboBox_3 = QtWidgets.QComboBox(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.comboBox_3.sizePolicy().hasHeightForWidth())
-        self.comboBox_3.setSizePolicy(sizePolicy)
-        self.comboBox_3.setIconSize(QtCore.QSize(8, 8))
-        self.comboBox_3.setObjectName("comboBox_3")
-        self.comboBox_3.addItem("")
-        self.comboBox_3.addItem("")
-        self.comboBox_3.addItem("")
-        self.comboBox_3.addItem("")
-        self.comboBox_3.addItem("")
-        self.comboBox_3.addItem("")
-        self.gridLayout_2.addWidget(self.comboBox_3, 0, 2, 1, 1, QtCore.Qt.AlignHCenter)
-        self.comboBox_1 = QtWidgets.QComboBox(self.centralWidget)
-        self.comboBox_1.setEnabled(True)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.comboBox_1.sizePolicy().hasHeightForWidth())
-        self.comboBox_1.setSizePolicy(sizePolicy)
-        self.comboBox_1.setMinimumSize(QtCore.QSize(0, 8))
-        self.comboBox_1.setMaximumSize(QtCore.QSize(16777215, 16777215))
-        self.comboBox_1.setSizeAdjustPolicy(QtWidgets.QComboBox.AdjustToContentsOnFirstShow)
-        self.comboBox_1.setIconSize(QtCore.QSize(8, 8))
-        self.comboBox_1.setObjectName("comboBox_1")
-        self.comboBox_1.addItem("")
-        self.comboBox_1.addItem("")
-        self.comboBox_1.addItem("")
-        self.comboBox_1.addItem("")
-        self.comboBox_1.addItem("")
-        self.comboBox_1.addItem("")
-        self.gridLayout_2.addWidget(self.comboBox_1, 0, 0, 1, 1, QtCore.Qt.AlignHCenter)
+        self.gridLayout_2.addWidget(self.label_6, 3, 2, 1, 1)
+
+        self.origin_label_names = ["None", "cap45a1", "cap60a1", "cap90a1",
+                                   "cap45a2", "cap60a2", "cap90a2"]
+
+        self.comboBox_1 = basicComboBox(object_name='comboBox_1',
+                                        QWidget_parent=self.centralWidget)
+        self.comboBox_2 = basicComboBox(object_name='comboBox_2',
+                                        QWidget_parent=self.centralWidget)
+        self.comboBox_3 = basicComboBox(object_name='comboBox_3',
+                                        QWidget_parent=self.centralWidget)
+        self.comboBox_4 = basicComboBox(object_name='comboBox_4',
+                                        QWidget_parent=self.centralWidget)
+        self.comboBox_5 = basicComboBox(object_name='comboBox_5',
+                                        QWidget_parent=self.centralWidget)
+        self.comboBox_6 = basicComboBox(object_name='comboBox_6',
+                                        QWidget_parent=self.centralWidget)
+
+        self.comboBox_lst = [self.comboBox_1, self.comboBox_2,
+                             self.comboBox_3, self.comboBox_4,
+                             self.comboBox_5, self.comboBox_6]
+        for comboBox in self.comboBox_lst:
+            comboBox.addItems(self.origin_label_names)
+
+
+        self.gridLayout_2.addWidget(self.comboBox_1, 0, 0, 1, 1,
+                                    QtCore.Qt.AlignHCenter)
+        self.gridLayout_2.addWidget(self.comboBox_2, 0, 1, 1, 1,
+                                    QtCore.Qt.AlignHCenter)
+        self.gridLayout_2.addWidget(self.comboBox_3, 0, 2, 1, 1,
+                                    QtCore.Qt.AlignHCenter)
+        self.gridLayout_2.addWidget(self.comboBox_4, 2, 0, 1, 1,
+                                    QtCore.Qt.AlignHCenter)
+        self.gridLayout_2.addWidget(self.comboBox_5, 2, 1, 1, 1,
+                                    QtCore.Qt.AlignHCenter)
+        self.gridLayout_2.addWidget(self.comboBox_6, 2, 2, 1, 1,
+                                    QtCore.Qt.AlignHCenter)
+
         self.verticalLayout.addLayout(self.gridLayout_2)
         self.gridLayout.addLayout(self.verticalLayout, 0, 0, 1, 1)
         self.horizontalLayout = QtWidgets.QHBoxLayout()
         self.horizontalLayout.setContentsMargins(11, 11, 11, 11)
         self.horizontalLayout.setSpacing(5)
         self.horizontalLayout.setObjectName("horizontalLayout")
+
+        self.label_width = QtWidgets.QLabel(self.centralWidget)
+        self.label_width.setMinimumSize(QtCore.QSize(96, 32))
+        self.label_width.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_width.setObjectName("label_width")
+        self.label_width.setText('Width[宽]:')
+        self.lineEdit_width = QtWidgets.QLineEdit(self.centralWidget)
+        self.lineEdit_width.setMinimumSize(QtCore.QSize(96, 32))
+        self.lineEdit_width.setText('800')
+        self.lineEdit_width.setObjectName("lineEdit_width")
+
+        self.horizontalLayout.addWidget(self.label_width)
+        self.horizontalLayout.addWidget(self.lineEdit_width)
+
+        self.label_height = QtWidgets.QLabel(self.centralWidget)
+        self.label_height.setMinimumSize(QtCore.QSize(96, 32))
+        self.label_height.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_height.setObjectName("label_height")
+        self.label_height.setText('Height[高]:')
+        self.lineEdit_height = QtWidgets.QLineEdit(self.centralWidget)
+        self.lineEdit_height.setMinimumSize(QtCore.QSize(96, 32))
+        self.lineEdit_height.setText('600')
+        self.lineEdit_height.setObjectName("lineEdit_height")
+
+        self.horizontalLayout.addWidget(self.label_height)
+        self.horizontalLayout.addWidget(self.lineEdit_height)
+
+        # MainWindow button
         self.buttonBox = QtWidgets.QDialogButtonBox(self.centralWidget)
-        self.buttonBox.setStandardButtons(QtWidgets.QDialogButtonBox.Cancel|QtWidgets.QDialogButtonBox.Ok|QtWidgets.QDialogButtonBox.RestoreDefaults)
+        # self.buttonBox.setMinimumSize(640, 32)
+        self.buttonBox.setStandardButtons(
+            QtWidgets.QDialogButtonBox.Cancel | QtWidgets.QDialogButtonBox.Ok)
         self.buttonBox.setCenterButtons(True)
         self.buttonBox.setObjectName("buttonBox")
         self.horizontalLayout.addWidget(self.buttonBox)
+
         self.gridLayout.addLayout(self.horizontalLayout, 1, 0, 1, 1)
         self.gridLayout.setRowStretch(0, 16)
         self.gridLayout.setRowStretch(1, 1)
@@ -247,55 +168,15 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("Cap_configurate", "Cap_configurate"))
-        """
-        self.label_2.setText(_translate("MainWindow", "TextLabel"))
-        self.comboBox_4.setItemText(0, _translate("MainWindow", "0"))
-        self.comboBox_4.setItemText(1, _translate("MainWindow", "1"))
-        self.comboBox_4.setItemText(2, _translate("MainWindow", "2"))
-        self.comboBox_4.setItemText(3, _translate("MainWindow", "3"))
-        self.comboBox_4.setItemText(4, _translate("MainWindow", "4"))
-        self.comboBox_4.setItemText(5, _translate("MainWindow", "5"))
-        self.label_3.setText(_translate("MainWindow", "TextLabel"))
-        self.label_1.setText(_translate("MainWindow", "TextLabel"))
-        self.comboBox_5.setItemText(0, _translate("MainWindow", "0"))
-        self.comboBox_5.setItemText(1, _translate("MainWindow", "1"))
-        self.comboBox_5.setItemText(2, _translate("MainWindow", "2"))
-        self.comboBox_5.setItemText(3, _translate("MainWindow", "3"))
-        self.comboBox_5.setItemText(4, _translate("MainWindow", "4"))
-        self.comboBox_5.setItemText(5, _translate("MainWindow", "5"))
-        self.label_4.setText(_translate("MainWindow", "TextLabel"))
-        self.comboBox_6.setItemText(0, _translate("MainWindow", "0"))
-        self.comboBox_6.setItemText(1, _translate("MainWindow", "1"))
-        self.comboBox_6.setItemText(2, _translate("MainWindow", "2"))
-        self.comboBox_6.setItemText(3, _translate("MainWindow", "3"))
-        self.comboBox_6.setItemText(4, _translate("MainWindow", "4"))
-        self.comboBox_6.setItemText(5, _translate("MainWindow", "5"))
-        self.label_6.setText(_translate("MainWindow", "TextLabel"))
-        self.comboBox_2.setItemText(0, _translate("MainWindow", "0"))
-        self.comboBox_2.setItemText(1, _translate("MainWindow", "1"))
-        self.comboBox_2.setItemText(2, _translate("MainWindow", "2"))
-        self.comboBox_2.setItemText(3, _translate("MainWindow", "3"))
-        self.comboBox_2.setItemText(4, _translate("MainWindow", "4"))
-        self.comboBox_2.setItemText(5, _translate("MainWindow", "5"))
-        self.label_5.setText(_translate("MainWindow", "TextLabel"))
-        self.comboBox_3.setItemText(0, _translate("MainWindow", "0"))
-        self.comboBox_3.setItemText(1, _translate("MainWindow", "1"))
-        self.comboBox_3.setItemText(2, _translate("MainWindow", "2"))
-        self.comboBox_3.setItemText(3, _translate("MainWindow", "3"))
-        self.comboBox_3.setItemText(4, _translate("MainWindow", "4"))
-        self.comboBox_3.setItemText(5, _translate("MainWindow", "5"))
-        self.comboBox_1.setItemText(0, _translate("MainWindow", "0"))
-        self.comboBox_1.setItemText(1, _translate("MainWindow", "1"))
-        self.comboBox_1.setItemText(2, _translate("MainWindow", "2"))
-        self.comboBox_1.setItemText(3, _translate("MainWindow", "3"))
-        self.comboBox_1.setItemText(4, _translate("MainWindow", "4"))
-        self.comboBox_1.setItemText(5, _translate("MainWindow", "5"))
-        """
+
         self.menuCap_Tool.setTitle(_translate("MainWindow", "Cap Tool"))
         self.menuInfo.setTitle(_translate("MainWindow", "Info"))
         self.action_Author_Mikoy.setText(_translate("MainWindow", "__Author__: Mikoy"))
         self.actionEmail_mikoychinese_gmail_com.setText(_translate("MainWindow", "Email: mikoychinese@gmail.com"))
         self.actionHelp.setText(_translate("MainWindow", "Help"))
+
+
+
 
 
 
