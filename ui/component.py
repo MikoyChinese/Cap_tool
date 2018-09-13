@@ -13,7 +13,7 @@ class basicLabel(QLabel):
         super(basicLabel, self).__init__(parent)
         self.label_name = label_name
         self.config()
-        self.setMinimumSize(QSize(width, height))
+        self.setMinimumSize(QSize(int(width), int(height)))
         # Picture auto adaptation.
         self.setScaledContents(True)
         # Label Frame

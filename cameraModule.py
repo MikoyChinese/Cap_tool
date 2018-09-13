@@ -12,12 +12,14 @@ from PyQt5.QtCore import QThread, QMutex, QMutexLocker, pyqtSignal
 
 
 class Camera():
-    def __init__(self, capture=cv2.VideoCapture(), label=None):
+    def __init__(self, capture=cv2.VideoCapture(), width=800, height=600,
+                 label=None, label_name=None):
         # Get the capture object from the MainWindow init.
         self.capture = capture
-        self.capture.set(3, 800)
-        self.capture.set(4, 600)
+        self.capture.set(3, int(width))
+        self.capture.set(4, int(height))
         self.label = label
+        self.label_name = label_name
         self.currentFrame = np.array([])
         self.logger = MyLogging(logger_name='user').logger
 
@@ -26,6 +28,9 @@ class Camera():
             # Get frame and convert it to PixMap
             ret, self.currentFrame = self.capture.read()
             self.currentFrame = cv2.cvtColor(self.currentFrame, cv2.COLOR_BGR2RGB)
+            if self.label_name:
+                cv2.putText(self.currentFrame, self.label_name,(18,56), 0, 1,
+                            (129,216,207), 3)
             height, width, bytesPer = self.currentFrame.shape
             # bytesPerLine = bytesPer*3
             img = QImage(self.currentFrame, width, height,
@@ -53,7 +58,6 @@ class Camera():
     def quit(self):
         self.cap_timer.stop()
         self.cap_timer.quit()
-        self.cap_timer.wait(500)
 
 
 class Camera_Timer(QThread):
@@ -66,7 +70,7 @@ class Camera_Timer(QThread):
     def run(self):
         while not self.stoped:
             self.update.emit()
-            time.sleep(0.3)
+            time.sleep(0.1)
 
     def stop(self):
         with QMutexLocker(self.mutex):

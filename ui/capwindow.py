@@ -7,6 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from ui.component import basicLabel
 import sys
 
 
@@ -48,10 +49,12 @@ class Cap_MainWindow(object):
         self.lineEdit_4 = QtWidgets.QLineEdit(self.centralWidget)
         self.lineEdit_4.setMinimumSize(QtCore.QSize(198, 32))
         self.lineEdit_4.setObjectName("lineEdit_4")
+        self.lineEdit_4.setText('1')
         self.gridLayout_3.addWidget(self.lineEdit_4, 1, 3, 1, 1)
         self.lineEdit_2 = QtWidgets.QLineEdit(self.centralWidget)
         self.lineEdit_2.setMinimumSize(QtCore.QSize(199, 32))
         self.lineEdit_2.setObjectName("lineEdit_2")
+        self.lineEdit_2.setText('0')
         self.gridLayout_3.addWidget(self.lineEdit_2, 1, 1, 1, 1)
         self.lineEdit = QtWidgets.QLineEdit(self.centralWidget)
         self.lineEdit.setMinimumSize(QtCore.QSize(199, 32))
@@ -60,6 +63,7 @@ class Cap_MainWindow(object):
         self.lineEdit_3 = QtWidgets.QLineEdit(self.centralWidget)
         self.lineEdit_3.setMinimumSize(QtCore.QSize(198, 32))
         self.lineEdit_3.setObjectName("lineEdit_3")
+        self.lineEdit_3.setText('201809')
         self.gridLayout_3.addWidget(self.lineEdit_3, 0, 3, 1, 1)
         self.lineEdit_5 = QtWidgets.QLineEdit(self.centralWidget)
         self.lineEdit_5.setMinimumSize(QtCore.QSize(318, 32))
@@ -115,73 +119,35 @@ class Cap_MainWindow(object):
         self.gridLayout_2.setHorizontalSpacing(4)
         self.gridLayout_2.setVerticalSpacing(3)
         self.gridLayout_2.setObjectName("gridLayout_2")
-        self.label_4 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_4.sizePolicy().hasHeightForWidth())
-        self.label_4.setSizePolicy(sizePolicy)
-        self.label_4.setMinimumSize(QtCore.QSize(414, 260))
-        self.label_4.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_4.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_4.setObjectName("label_4")
-        self.gridLayout_2.addWidget(self.label_4, 2, 0, 1, 1)
-        self.label_1 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_1.sizePolicy().hasHeightForWidth())
-        self.label_1.setSizePolicy(sizePolicy)
-        self.label_1.setMinimumSize(QtCore.QSize(414, 259))
-        self.label_1.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_1.setScaledContents(True)
-        self.label_1.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_1.setObjectName("label_1")
+
+        self.label_1 = basicLabel(label_name='label_1',
+                                  parent=self.centralWidget, width=414,
+                                  height=259)
+        self.label_2 = basicLabel(label_name='label_2',
+                                  parent=self.centralWidget, width=414,
+                                  height=259)
+        self.label_3 = basicLabel(label_name='label_3',
+                                  parent=self.centralWidget, width=414,
+                                  height=259)
+
+        self.label_4 = basicLabel(label_name='label_4',
+                                  parent=self.centralWidget, width=414,
+                                  height=260)
+        self.label_5 = basicLabel(label_name='label_5',
+                                  parent=self.centralWidget, width=414,
+                                  height=260)
+        self.label_6 = basicLabel(label_name='label_6',
+                                  parent=self.centralWidget, width=414,
+                                  height=260)
+
         self.gridLayout_2.addWidget(self.label_1, 1, 0, 1, 1)
-        self.label_6 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_6.sizePolicy().hasHeightForWidth())
-        self.label_6.setSizePolicy(sizePolicy)
-        self.label_6.setMinimumSize(QtCore.QSize(414, 260))
-        self.label_6.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_6.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_6.setObjectName("label_6")
-        self.gridLayout_2.addWidget(self.label_6, 2, 2, 1, 1)
-        self.label_5 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_5.sizePolicy().hasHeightForWidth())
-        self.label_5.setSizePolicy(sizePolicy)
-        self.label_5.setMinimumSize(QtCore.QSize(414, 260))
-        self.label_5.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_5.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_5.setObjectName("label_5")
-        self.gridLayout_2.addWidget(self.label_5, 2, 1, 1, 1)
-        self.label_3 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_3.sizePolicy().hasHeightForWidth())
-        self.label_3.setSizePolicy(sizePolicy)
-        self.label_3.setMinimumSize(QtCore.QSize(414, 259))
-        self.label_3.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_3.setObjectName("label_3")
-        self.gridLayout_2.addWidget(self.label_3, 1, 2, 1, 1)
-        self.label_2 = QtWidgets.QLabel(self.centralWidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_2.sizePolicy().hasHeightForWidth())
-        self.label_2.setSizePolicy(sizePolicy)
-        self.label_2.setMinimumSize(QtCore.QSize(414, 259))
-        self.label_2.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_2.setObjectName("label_2")
         self.gridLayout_2.addWidget(self.label_2, 1, 1, 1, 1)
+        self.gridLayout_2.addWidget(self.label_3, 1, 2, 1, 1)
+        self.gridLayout_2.addWidget(self.label_4, 2, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.label_5, 2, 1, 1, 1)
+        self.gridLayout_2.addWidget(self.label_6, 2, 2, 1, 1)
+
+
         self.label_10 = QtWidgets.QLabel(self.centralWidget)
         self.label_10.setObjectName("label_10")
         self.gridLayout_2.addWidget(self.label_10, 0, 1, 1, 1, QtCore.Qt.AlignHCenter)
@@ -248,6 +214,8 @@ class Cap_MainWindow(object):
         self.actionEmail.setText(_translate("MainWindow", "Email: mikoychinese@gmail.com"))
         self.actionHelp.setText(_translate("MainWindow", "Help"))
 
+    def signal(self):
+        self.lineEdit.textChanged.connect()
 
 if __name__ == '__main__':
 
