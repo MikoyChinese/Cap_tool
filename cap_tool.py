@@ -16,6 +16,7 @@ from PyQt5.QtWidgets import QMessageBox
 class Init_config():
 
     def __init__(self, mainWindow=None):
+        self.mainWindow = mainWindow
         self.ui = Ui_MainWindow()
         self.ui.setupUi(mainWindow)
         self.centralWidget = self.ui.centralWidget
@@ -28,9 +29,8 @@ class Init_config():
         # To save all available Camera name or path.
         self.cap_objects = []
         cam_lst = basicTool().availableCamera()
-        self.label_lst = basicTool().availableLabel(lst=self.label_lst,
-                                                    count=len(cam_lst))
-        origin_label_names = self.ui.origin_label_names.pop(0)
+        # self.label_lst = basicTool().availableLabel(lst=self.label_lst, count=len(cam_lst))
+
 
         for cam_name in cam_lst:
             cap = cv2.VideoCapture(cam_name)
@@ -44,7 +44,7 @@ class Init_config():
             self.cap_label_name.append(
                 Camera(capture=self.cap_objects[i], label=self.label_lst[i]))
 
-        self.handle = Handle(parent=self.ui, widget=self.centralWidget)
+        self.handle = Handle(mainWindow=self.mainWindow, parent=self.ui, widget=self.centralWidget)
         self.ui.buttonBox.rejected.connect(self.handle.quit)
 
     def show(self):
@@ -64,16 +64,31 @@ class Init_config():
 class Init_Cap():
 
     def __init__(self, mainWindow=None):
+        self.mainWindow = mainWindow
         self.ui = Cap_MainWindow()
         self.ui.setupUi(mainWindow)
+        self.centralWidget = self.ui.centralWidget
 
         # List all Cap label we have in the UI.
         self.label_lst = [self.ui.label_1, self.ui.label_2, self.ui.label_3,
                           self.ui.label_4, self.ui.label_5, self.ui.label_6]
 
+        # To save all available Camera name or path.
+        self.cap_objects = []
+        cam_lst = basicTool().availableCamera()
+        # self.label_lst = basicTool().availableLabel(lst=self.label_lst, count=len(cam_lst))
+
+        for cam_name in cam_lst:
+            cap = cv2.VideoCapture(cam_name)
+            if cap.isOpened():
+                self.cap_objects.append(cap)
+            else:
+                print('%s Camera can not open.' % cam_name)
+
 
 class Handle():
-    def __init__(self, parent=Ui_MainWindow, widget=None):
+    def __init__(self, mainWindow=QtWidgets.QMainWindow, parent=Ui_MainWindow, widget=None):
+        self.mainWindow = mainWindow
         self.parent = parent
         self.widget = widget
 
@@ -82,31 +97,40 @@ class Handle():
                                      QMessageBox.Yes | QMessageBox.No,
                                      QMessageBox.No)
         if reply == QMessageBox.Yes:
-            sys.exit(0)
+            self.mainWindow.close()
         else:
             pass
 
     def start(self):
-        pass
+        self.parent.centralWidget.close()
+        Init_Cap(self.mainWindow)
+
 
     def mainwindow_get_data(self):
         width = self.parent.lineEdit_width.text()
         height = self.parent.lineEdit_height.text()
 
         label_names = []
+        origin_label_names = self.parent.origin_label_names.copy()
+        origin_label_names.pop(0)
         comboBox_lst = [self.parent.comboBox_1.currentText(),
                         self.parent.comboBox_2.currentText(),
                         self.parent.comboBox_3.currentText(),
                         self.parent.comboBox_4.currentText(),
                         self.parent.comboBox_5.currentText(),
                         self.parent.comboBox_6.currentText()]
+
         for each in comboBox_lst:
             if each not in label_names and each != 'None':
                 label_names.append(each)
             else:
                 pass
 
+        label_name_index = []
+        for each in label_names:
+            label_name_index.append(origin_label_names.index(each))
 
+        return width, height, label_name_index
 
 
 if __name__ == '__main__':

@@ -9,11 +9,11 @@ import subprocess, cv2
 
 class basicLabel(QLabel):
 
-    def __init__(self, label_name=None, parent=None):
+    def __init__(self, label_name=None, parent=None, width=417, height=307):
         super(basicLabel, self).__init__(parent)
         self.label_name = label_name
         self.config()
-        self.setMinimumSize(QSize(417, 307))
+        self.setMinimumSize(QSize(width, height))
         # Picture auto adaptation.
         self.setScaledContents(True)
         # Label Frame
