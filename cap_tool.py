@@ -4,13 +4,14 @@ This file uses PyQt5 to design a Application to Capture photoes.
 
 """
 
-import cv2, sys, os
+import cv2, sys, os, time
 from PyQt5 import QtWidgets
 from ui.mainwindow import Ui_MainWindow
 from ui.component import basicTool
 from ui.capwindow import Cap_MainWindow
-from cameraModule import Camera
+from cameraModule import Camera, Save_img_Timer
 from PyQt5.QtWidgets import QMessageBox, QFileDialog
+from PyQt5.QtCore import QThread
 
 
 class Init_config():
@@ -90,11 +91,12 @@ class Init_Cap():
                                        label=self.label_lst[i],
                                               label_name=self.label_name[cap_index]))
 
-
+        self.ui.cap_ok_Button.pressed.connect(self._data)
+        self.ui.cap_ok_Button.released.connect(self.start)
         self.ui.cap_quit_Button.clicked.connect(self.quit)
         self.ui.cap_next_Button.clicked.connect(self.next)
         self.ui.toolButton.clicked.connect(self.select_folder)
-        self.ui.lineEdit.textChanged.connect(self.set_default)
+        self.ui.lineEdit.editingFinished.connect(self.set_default)
 
     def show(self):
         for cap in self.cap_label_name:
@@ -106,7 +108,6 @@ class Init_Cap():
         self.ui.lineEdit_5.setText(path)
 
     def set_default(self):
-        self.ui.lineEdit.setText('')
         self.ui.lineEdit_2.setText('0')
         self.ui.lineEdit_4.setText('1')
 
@@ -114,6 +115,36 @@ class Init_Cap():
         direction = int(self.ui.lineEdit_4.text())
         next = direction + 1
         self.ui.lineEdit_4.setText(str(next))
+
+    def _data(self):
+        self.cvid = self.ui.lineEdit.text()
+        self.date = self.ui.lineEdit_3.text()
+        self.char = self.ui.lineEdit_2.text()
+        self.direction = self.ui.lineEdit_4.text()
+        self.save_path = self.ui.lineEdit_5.text().strip()
+        if self.save_path[-1] == '/':
+            pass
+        else:
+            self.save_path += '/'
+
+    def start(self):
+        self.save_img_timers = []
+        for cap in self.cap_label_name:
+            self.save_img_timers.append(Save_img_Timer(parent=self, cap_Object=cap))
+
+        for each in self.save_img_timers:
+            each.start()
+
+
+    def save_img(self, img, label_name):
+
+        save_dir = self.save_path + self.cvid + '/' + label_name + '/' + \
+                   self.direction + '/'
+        img_name = self.cvid + '_' + self.char + '_' + self.date + '_' + \
+                   label_name
+        cv2.imwrite()
+
+
 
     def quit(self):
         reply = QMessageBox.question(self.centralWidget, 'Msg:', '确认退出吗？',
