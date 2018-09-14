@@ -93,34 +93,62 @@ class Camera_Timer(QThread):
 
 class Save_img_Timer(QThread):
 
-    def __init__(self, parent=None, cap_Object=Camera):
+    send_msg = pyqtSignal(str)
+
+    def __init__(self, parent=None, cap_Objects=None, time=float):
         super(Save_img_Timer, self).__init__()
         self.parent = parent
-        self.cap_Object = cap_Object
-        self.save_dir = self.parent.save_path + self.parent.cvid + '/' + \
-                        self.cap_Object.label_name + '/' + \
-                        self.parent.direction + '/'
-        if not os.path.exists(self.save_dir):
-            os.makedirs(self.save_dir)
+        self.cap_Objects = cap_Objects
+        self.time = time/32
+        self.save_dirs = []
+        self.img_names = []
 
-        self.img_name = self.parent.cvid + '_' + self.parent.char + '_' + \
-                        self.parent.date + '_' + self.cap_Object.label_name +\
-                        '_' + self.parent.direction
+        for cap_Object in self.cap_Objects:
+            self.save_dirs.append(self.parent.save_path + self.parent.cvid + '/'
+                                  + cap_Object.label_name + '/' + \
+                                  self.parent.direction + '/')
+
+            self.img_names.append(self.parent.cvid + '_' + self.parent.char + '_' + \
+                                  self.parent.date + '_' + cap_Object.label_name +\
+                                  '_' + self.parent.direction)
+
+        for save_dir in self.save_dirs:
+            if not os.path.exists(save_dir):
+                os.makedirs(save_dir)
+
+
         self.index = 1
+        self.isStop = False
 
     def __del__(self):
         self.wait()
 
     def run(self):
-        ret, img = self.cap_Object.capture.read()
-        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-        print('Test')
-        file_name = self.img_name + '_' + str(self.index) + '.jpg'
-        cv2.imwrite(self.save_dir + file_name, img)
-        time.sleep(0.1)
-        if self.index > 32:
-            self.__del__()
-        self.index += 1
+        num = len(self.cap_Objects)
+        while not self.isStop:
+            self.imgs = []
+            self.file_names = []
+            for i in range(num):
+                ret, img = self.cap_Objects[i].capture.read()
+                file_name = self.img_names[i] + '_' + str(self.index) + '.jpg'
+                print(file_name)
+                self.imgs.append(img)
+                self.file_names.append(file_name)
+
+            for i in range(num):
+                cv2.imwrite(self.save_dirs[i] + self.file_names[i], self.imgs[i])
+
+            msg = '[Cvid]:  %s  [Direction]:  %s  |  ---------->  %d\n' % (self.parent.cvid, self.parent.direction, self.index)
+            self.send_msg.emit(msg)
+
+            self.index += 1
+            time.sleep(self.time)
+            if self.index > 32:
+                self.isStop = True
+                break
+
+
+
 
 
 

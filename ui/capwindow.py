@@ -198,7 +198,7 @@ class Cap_MainWindow(object):
         self.cap_ok_Button.setText(_translate("MainWindow", "Capture[开始拍照]"))
         self.toolButton.setText(_translate("MainWindow", "..."))
         self.label_cvid.setText(_translate("MainWindow", "Cvid[商品名]"))
-        self.cap_quit_Button.setText(_translate("MainWindow", "Quit[退出]"))
+        self.cap_quit_Button.setText(_translate("MainWindow", "设置速度"))
 
         self.label_1.setText(_translate("MainWindow", "cap1"))
         self.label_2.setText(_translate("MainWindow", "cap2"))
