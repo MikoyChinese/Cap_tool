@@ -24,6 +24,11 @@ class Init_config():
         self.label_lst = [self.ui.label_1, self.ui.label_2, self.ui.label_3,
                           self.ui.label_4, self.ui.label_5, self.ui.label_6]
         # To save the cap_label init name.
+
+        # Create the
+        self.ui.origin_label_names = ["None", "cap45a1", "cap60a1", "cap90a1",
+                                   "cap45a2", "cap60a2", "cap90a2"]
+
         self.cap_label_name = []
         # To save all available Camera name or path.
         self.cap_objects = []
@@ -90,13 +95,14 @@ class Init_Cap():
             cap_index = int(self.label_name_index[i])
             self.cap_label_name.append(Camera(capture=self.cap_objects[cap_index],
                                        label=self.label_lst[i],
-                                              label_name=self.label_name[cap_index]))
+                                       label_name=self.label_name[cap_index],
+                                       width=self.cap_width, height=self.cap_height))
 
         self.ui.cap_ok_Button.pressed.connect(self._data)
-        self.ui.cap_ok_Button.released.connect(self.start)
         self.ui.cap_quit_Button.clicked.connect(self.set_time)
         self.ui.cap_next_Button.clicked.connect(self.next)
         self.ui.toolButton.clicked.connect(self.select_folder)
+        self.ui.cap_ok_Button.released.connect(self.start)
         self.ui.lineEdit.editingFinished.connect(self.set_default)
 
 
@@ -133,7 +139,7 @@ class Init_Cap():
         self.save_img_timer = Save_img_Timer(parent=self, cap_Objects=self.cap_label_name, time=self.time)
         self.save_img_timer.send_msg.connect(self.update_textBrowser)
         self.save_img_timer.start()
-        print('Over')
+
 
 
     def save_img(self, img, label_name):

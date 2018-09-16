@@ -214,8 +214,6 @@ class Cap_MainWindow(object):
         self.actionEmail.setText(_translate("MainWindow", "Email: mikoychinese@gmail.com"))
         self.actionHelp.setText(_translate("MainWindow", "Help"))
 
-    def signal(self):
-        self.lineEdit.textChanged.connect()
 
 if __name__ == '__main__':
 

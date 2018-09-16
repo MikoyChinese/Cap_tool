@@ -14,6 +14,7 @@ from ui.component import basicLabel, basicComboBox
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
+        # The main window size.
         MainWindow.resize(1280, 800)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
         sizePolicy.setHorizontalStretch(0)
@@ -52,6 +53,7 @@ class Ui_MainWindow(object):
         self.label_6 = basicLabel(label_name='label_6',
                                   parent=self.centralWidget)
 
+        # The mainWindow labels, it will show the pics.
         self.gridLayout_2.addWidget(self.label_1, 1, 0, 1, 1)
         self.gridLayout_2.addWidget(self.label_2, 1, 1, 1, 1)
         self.gridLayout_2.addWidget(self.label_3, 1, 2, 1, 1)
@@ -59,6 +61,8 @@ class Ui_MainWindow(object):
         self.gridLayout_2.addWidget(self.label_5, 3, 1, 1, 1)
         self.gridLayout_2.addWidget(self.label_6, 3, 2, 1, 1)
 
+        # Create the default label name, if you want to change it, please
+        # change it in the main process <cap_tool.py>.
         self.origin_label_names = ["None", "cap45a1", "cap60a1", "cap90a1",
                                    "cap45a2", "cap60a2", "cap90a2"]
 
@@ -174,10 +178,6 @@ class Ui_MainWindow(object):
         self.action_Author_Mikoy.setText(_translate("MainWindow", "__Author__: Mikoy"))
         self.actionEmail_mikoychinese_gmail_com.setText(_translate("MainWindow", "Email: mikoychinese@gmail.com"))
         self.actionHelp.setText(_translate("MainWindow", "Help"))
-
-
-
-
 
 
 if __name__ == '__main__':

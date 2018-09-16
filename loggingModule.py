@@ -29,8 +29,8 @@ class MyLogging(object):
             'disable_existing_loggers': False,
             'formatters': {
                 'standard': {
-                    'format': '[%(levelname)s] %(asctime)s %(module)s %('
-                              'process)d %(thread)d: %(message)s',
+                    'format': '[%(levelname)s] %(asctime)s %(filename)s: %('
+                              'message)s',
                     'datefmt': '%H:%M:%S'
                 },
                 'simple': {
@@ -53,7 +53,7 @@ class MyLogging(object):
             'loggers': {
                 'user': {
                     'level': 'DEBUG',
-                    'handlers': ['console', 'default']
+                    'handlers': ['default']
                 }
             }
         }

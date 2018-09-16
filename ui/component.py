@@ -6,6 +6,10 @@ from PyQt5.QtWidgets import QLabel, QComboBox, QSizePolicy, QFrame, QWidget, QMe
 from PyQt5.QtCore import Qt, QSize
 import subprocess, cv2
 
+"""
+    This part includes <basicLable, basicComboBox, basicQuitMsgBox, basicTool>.
+"""
+
 
 class basicLabel(QLabel):
 
@@ -33,6 +37,7 @@ class basicComboBox(QComboBox):
 
     def __init__(self, object_name=None, QWidget_parent=None):
         super(basicComboBox, self).__init__(QWidget_parent)
+        # Itself name.
         self.object_name = object_name
         self.config()
         self.setObjectName(self.object_name)
@@ -61,7 +66,11 @@ class basicQuitMsgBox(QWidget):
 
 
 class basicTool():
-
+    """
+    This script will show all Cameras path on you pc and finally return a list.
+    The availableLabel is for showing the cameras' pics I like, if you want
+    display in your way, edit it anytime.
+    """
     def availableCamera(self):
         cmd = 'ls /dev/video*'
         cam_lst = subprocess.getoutput(cmd).splitlines()
