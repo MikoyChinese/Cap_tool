@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c595b6d5-33d2-4788-996d-98862309f597" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cameraModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/cameraModule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cap6x.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cap_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/cap_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loggingModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/loggingModule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/capwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/capwindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/component.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/mainwindow.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,35 +15,35 @@
     <session id="-305810621">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="20180916" value="1" />
-          <entry key="py" value="28" />
+          <entry key="py" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="28" />
+          <entry key="Python" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4665" />
+          <entry key="py" value="4685" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4665" />
+          <entry key="Python" value="4685" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -57,25 +51,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cap_tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
+            <state relative-caret-position="132">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding>
-                <element signature="e#76#101#0" expanded="true" />
-                <marker date="1537110133202" expanded="true" signature="4816:5037" ph="..." />
-                <marker date="1537110133202" expanded="true" signature="5343:5499" ph="..." />
+                <marker date="1537111919383" expanded="true" signature="4810:5031" ph="..." />
+                <marker date="1537111919383" expanded="true" signature="5337:5493" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cameraModule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="171" column="16" lean-forward="true" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
+              <folding>
+                <element signature="e#462#487#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cameraModule.py">
+        <entry file="file://$PROJECT_DIR$/ui/component.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="163" column="61" selection-start-line="163" selection-start-column="61" selection-end-line="163" selection-end-column="61" />
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#73#161#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,6 +111,7 @@
       <find>label_name</find>
       <find>label</find>
       <find>sa</find>
+      <find>logger</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,8 +124,8 @@
         <option value="$PROJECT_DIR$/ui/mainwindow.py" />
         <option value="$PROJECT_DIR$/ui/capwindow.py" />
         <option value="$PROJECT_DIR$/ui/component.py" />
-        <option value="$PROJECT_DIR$/cap_tool.py" />
         <option value="$PROJECT_DIR$/loggingModule.py" />
+        <option value="$PROJECT_DIR$/cap_tool.py" />
         <option value="$PROJECT_DIR$/cameraModule.py" />
       </list>
     </option>
@@ -135,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,18 +155,12 @@
             <path>
               <item name="Cap_tool" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cap_tool" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cap_tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cap_tool" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +295,7 @@
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1182266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1182266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -363,27 +367,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/cap6x.py" />
-    <entry file="file://$PROJECT_DIR$/ui/capwindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1620">
-          <caret line="128" column="55" lean-forward="true" selection-start-line="128" selection-start-column="55" selection-end-line="128" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/mainwindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="69" column="61" lean-forward="true" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/component.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1180">
-          <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loggingModule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1386">
@@ -391,28 +374,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/info.log.20180916">
+    <entry file="file://$PROJECT_DIR$/log/info.log.20180916" />
+    <entry file="file://$PROJECT_DIR$/ui/mainwindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        <state relative-caret-position="1474">
+          <caret line="69" column="61" lean-forward="true" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cameraModule.py">
+    <entry file="file://$PROJECT_DIR$/ui/capwindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="163" column="61" selection-start-line="163" selection-start-column="61" selection-end-line="163" selection-end-column="61" />
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cap_tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
-            <element signature="e#76#101#0" expanded="true" />
-            <marker date="1537110133202" expanded="true" signature="4816:5037" ph="..." />
-            <marker date="1537110133202" expanded="true" signature="5343:5499" ph="..." />
+            <marker date="1537111919383" expanded="true" signature="4810:5031" ph="..." />
+            <marker date="1537111919383" expanded="true" signature="5337:5493" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/component.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#73#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cameraModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="171" column="16" lean-forward="true" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
+          <folding>
+            <element signature="e#462#487#0" expanded="true" />
           </folding>
         </state>
       </provider>

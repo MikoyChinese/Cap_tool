@@ -1,0 +1,4 @@
+[INFO] 23:56:43 cameraModule.py: Create [Capture]: <VideoCapture 0x7efd448ab750> [Label_name]: None
+[INFO] 23:56:43 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7efd4483bdc8>] has created.
+[INFO] 23:57:13 cameraModule.py: Create [Capture]: <VideoCapture 0x7efd448ab810> [Label_name]: cap45a1
+[INFO] 23:57:13 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7efd41841288>] has created.

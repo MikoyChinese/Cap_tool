@@ -4,7 +4,7 @@ This file uses PyQt5 to design a Application to Capture photoes.
 
 """
 
-import cv2, sys, os, time
+import cv2, sys, os
 from PyQt5 import QtWidgets
 from ui.mainwindow import Ui_MainWindow
 from ui.component import basicTool
