@@ -136,6 +136,7 @@ class Init_Cap():
             self.save_path += '/'
 
     def start(self):
+        self.ui.cap_ok_Button.setEnabled(False)
         self.save_img_timer = Save_img_Timer(parent=self, cap_Objects=self.cap_label_name, time=self.time)
         self.save_img_timer.send_msg.connect(self.update_textBrowser)
         self.save_img_timer.start()
@@ -234,6 +235,10 @@ class Handle():
 
 
 if __name__ == '__main__':
+    dir_path = os.path.join(os.path.dirname(__file__), 'log')
+    if not os.path.exists(dir_path):
+        os.makedirs(dir_path)
+
     app = QtWidgets.QApplication(sys.argv)
     mainWindow = QtWidgets.QMainWindow()
 

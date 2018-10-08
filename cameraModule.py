@@ -86,7 +86,7 @@ class Camera_Timer(QThread):
     def run(self):
         while not self.stoped:
             self.update.emit()
-            time.sleep(0.1)
+            time.sleep(0.27)
 
     def stop(self):
         with QMutexLocker(self.mutex):
@@ -171,6 +171,7 @@ class Save_img_Timer(QThread):
                 msg = '[CVID]: %s [DIRECTION]: %s [ACTIVED]: End.' % (self.parent.cvid, self.parent.direction)
                 self.logger.info(msg)
                 self.send_msg.emit(msg)
+                self.parent.ui.cap_ok_Button.setEnabled(True)
                 break
 
 

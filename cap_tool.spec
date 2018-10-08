@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['cap_tool.py'],
-             pathex=['/home/mikoy/self/github/Cap_tool'],
+             pathex=['/home/commaai-03/Mikoy/github/Cap_tool'],
              binaries=[],
              datas=[],
              hiddenimports=[],
