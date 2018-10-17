@@ -4,7 +4,7 @@ This file uses PyQt5 to design a Application to Capture photoes.
 
 """
 
-import cv2, sys, os
+import cv2, sys, os, time
 from PyQt5 import QtWidgets
 from ui.mainwindow import Ui_MainWindow
 from ui.component import basicTool
@@ -64,6 +64,9 @@ class Init_config():
 
 
 class Init_Cap():
+
+    Fixed_save_path = os.path.expanduser('~') + '/.data/' + time.strftime(
+        '%Y%m%d')
 
     def __init__(self, mainWindow=None, *accept_data):
         self.mainWindow = mainWindow
@@ -129,7 +132,7 @@ class Init_Cap():
         self.date = self.ui.lineEdit_3.text()
         self.char = self.ui.lineEdit_2.text()
         self.direction = self.ui.lineEdit_4.text()
-        self.save_path = self.ui.lineEdit_5.text().strip()
+        self.save_path = Fixed_save_path
         if self.save_path[-1] == '/':
             pass
         else:
@@ -238,6 +241,11 @@ if __name__ == '__main__':
     dir_path = os.path.join(os.path.dirname(__file__), 'log')
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
+    Fixed_save_path = os.path.expanduser('~') + '/.data/' + time.strftime(
+        '%Y%m%d')
+    if not os.path.exists(Fixed_save_path):
+        os.makedirs(Fixed_save_path)
+
 
     app = QtWidgets.QApplication(sys.argv)
     mainWindow = QtWidgets.QMainWindow()

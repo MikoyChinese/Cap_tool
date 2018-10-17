@@ -133,10 +133,11 @@ class Save_img_Timer(QThread):
                                   '_' + self.parent.direction)
 
         for save_dir in self.save_dirs:
+            dir_msg = '/' + '/'.join(save_dir.split('/')[-4:-1])
             if not os.path.exists(save_dir):
                 os.makedirs(save_dir)
                 self.logger.info('Create dir [%s]' % save_dir)
-                msg = 'Create dir [%s]' % save_dir
+                msg = 'Create dir [%s]' % dir_msg
                 self.creat_dirs_msg.connect(self.parent.update_textBrowser)
                 self.creat_dirs_msg.emit(msg)
 

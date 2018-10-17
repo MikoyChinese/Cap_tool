@@ -68,6 +68,10 @@ class Cap_MainWindow(object):
         self.lineEdit_5 = QtWidgets.QLineEdit(self.centralWidget)
         self.lineEdit_5.setMinimumSize(QtCore.QSize(318, 32))
         self.lineEdit_5.setObjectName("lineEdit_5")
+
+        # For other usage, so set this lineEdit visial disable.
+        self.lineEdit_5.setVisible(False)
+
         self.gridLayout_3.addWidget(self.lineEdit_5, 2, 1, 1, 2)
         self.label_char = QtWidgets.QLabel(self.centralWidget)
         self.label_char.setMinimumSize(QtCore.QSize(96, 32))
