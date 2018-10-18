@@ -74,7 +74,7 @@ class Init_Cap():
         self.ui = Cap_MainWindow()
         self.ui.setupUi(mainWindow)
         self.centralWidget = self.ui.centralWidget
-        self.time = 13.00
+        self.time = 12.00
         self.set_time()
 
         # List all Cap label we have in the UI.
@@ -157,7 +157,7 @@ class Init_Cap():
 
 
     def set_time(self):
-        reply, ok = QInputDialog.getDouble(self.centralWidget, '拍照周期', '请输入拍照周期(单位 s)： ', 13, 0, 999,3)
+        reply, ok = QInputDialog.getDouble(self.centralWidget, '拍照周期', '请输入拍照周期(单位 s)： ', 12, 0, 999,3)
         if ok:
             self.time = reply
 
