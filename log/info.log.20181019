@@ -1,0 +1,270 @@
+[INFO] 15:01:07 cameraModule.py: Create [Capture]: <VideoCapture 0x7f7cf7df4a30> [Label_name]: None
+[INFO] 15:01:07 cameraModule.py: Create [Capture]: <VideoCapture 0x7f7cf7df4fd0> [Label_name]: None
+[INFO] 15:01:07 cameraModule.py: Create [Capture]: <VideoCapture 0x7f7cf7df4d50> [Label_name]: None
+[INFO] 15:01:07 cameraModule.py: Create [Capture]: <VideoCapture 0x7f7cf7df4d90> [Label_name]: None
+[INFO] 15:01:07 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f7cf7db48b8>] has created.
+[INFO] 15:01:07 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f7cf7db49d8>] has created.
+[INFO] 15:01:07 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f7cf7db4a68>] has created.
+[INFO] 15:01:07 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f7cf7db4af8>] has created.
+[ERROR] 15:01:08 cameraModule.py: Some error happened in <cameraModule.py | getFrame>.
+[INFO] 15:03:40 cameraModule.py: Create [Capture]: <VideoCapture 0x7f17870cfa30> [Label_name]: None
+[INFO] 15:03:40 cameraModule.py: Create [Capture]: <VideoCapture 0x7f17870cffd0> [Label_name]: None
+[INFO] 15:03:40 cameraModule.py: Create [Capture]: <VideoCapture 0x7f17870cfd50> [Label_name]: None
+[INFO] 15:03:40 cameraModule.py: Create [Capture]: <VideoCapture 0x7f17870cfd90> [Label_name]: None
+[INFO] 15:03:40 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f17870908b8>] has created.
+[INFO] 15:03:40 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f17870909d8>] has created.
+[INFO] 15:03:40 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f1787090a68>] has created.
+[INFO] 15:03:40 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f1787090af8>] has created.
+[ERROR] 15:03:40 cameraModule.py: Some error happened in <cameraModule.py | getFrame>.
+[INFO] 15:03:44 cameraModule.py: Create [Capture]: <VideoCapture 0x7f6a0f4d8a30> [Label_name]: None
+[INFO] 15:03:44 cameraModule.py: Create [Capture]: <VideoCapture 0x7f6a0f4d8fd0> [Label_name]: None
+[INFO] 15:03:44 cameraModule.py: Create [Capture]: <VideoCapture 0x7f6a0f4d8d50> [Label_name]: None
+[INFO] 15:03:44 cameraModule.py: Create [Capture]: <VideoCapture 0x7f6a0f4d8d90> [Label_name]: None
+[INFO] 15:03:44 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f6a0f4998b8>] has created.
+[INFO] 15:03:44 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f6a0f4999d8>] has created.
+[INFO] 15:03:44 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f6a0f499a68>] has created.
+[INFO] 15:03:44 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f6a0f499af8>] has created.
+[ERROR] 15:03:44 cameraModule.py: Some error happened in <cameraModule.py | getFrame>.
+[INFO] 15:04:03 cameraModule.py: Create [Capture]: <VideoCapture 0x7fef0c473fd0> [Label_name]: None
+[INFO] 15:04:03 cameraModule.py: Create [Capture]: <VideoCapture 0x7fef0c473a30> [Label_name]: None
+[INFO] 15:04:03 cameraModule.py: Create [Capture]: <VideoCapture 0x7fef0c473d50> [Label_name]: None
+[INFO] 15:04:03 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fef0c4348b8>] has created.
+[INFO] 15:04:03 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fef0c4349d8>] has created.
+[INFO] 15:04:03 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fef0c434a68>] has created.
+[ERROR] 15:04:04 cameraModule.py: Some error happened in <cameraModule.py | getFrame>.
+[INFO] 15:06:11 cameraModule.py: Create [Capture]: <VideoCapture 0x7f80a74e9a30> [Label_name]: None
+[INFO] 15:06:11 cameraModule.py: Create [Capture]: <VideoCapture 0x7f80a74e9fd0> [Label_name]: None
+[INFO] 15:06:11 cameraModule.py: Create [Capture]: <VideoCapture 0x7f80a74e9d50> [Label_name]: None
+[INFO] 15:06:11 cameraModule.py: Create [Capture]: <VideoCapture 0x7f80a74e9d90> [Label_name]: None
+[INFO] 15:06:11 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f80a74aa8b8>] has created.
+[INFO] 15:06:11 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f80a74aa9d8>] has created.
+[INFO] 15:06:11 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f80a74aaa68>] has created.
+[INFO] 15:06:11 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f80a74aaaf8>] has created.
+[INFO] 15:06:33 cameraModule.py: Create [Capture]: <VideoCapture 0x7f809813c130> [Label_name]: cap45a1
+[INFO] 15:06:33 cameraModule.py: Create [Capture]: <VideoCapture 0x7f809813c110> [Label_name]: cap60a1
+[INFO] 15:06:33 cameraModule.py: Create [Capture]: <VideoCapture 0x7f80a74e9d10> [Label_name]: cap45a2
+[INFO] 15:06:33 cameraModule.py: Create [Capture]: <VideoCapture 0x7f80a74e9db0> [Label_name]: cap60a2
+[INFO] 15:06:33 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f809814ee58>] has created.
+[INFO] 15:06:33 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f809814eee8>] has created.
+[INFO] 15:06:33 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f809814ef78>] has created.
+[INFO] 15:06:33 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f80cbeec048>] has created.
+[INFO] 15:06:54 cameraModule.py: Create [Capture]: <VideoCapture 0x7fc84eb38a30> [Label_name]: None
+[INFO] 15:06:54 cameraModule.py: Create [Capture]: <VideoCapture 0x7fc84eb38fd0> [Label_name]: None
+[INFO] 15:06:54 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fc84eaf98b8>] has created.
+[INFO] 15:06:54 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fc84eaf99d8>] has created.
+[INFO] 15:07:07 cameraModule.py: Create [Capture]: <VideoCapture 0x7fc84eb38d10> [Label_name]: cap45a2
+[INFO] 15:07:07 cameraModule.py: Create [Capture]: <VideoCapture 0x7fc84eb38d10> [Label_name]: cap45a2
+[INFO] 15:07:07 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fc8401cad38>] has created.
+[INFO] 15:07:07 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fc8401cadc8>] has created.
+[INFO] 15:07:26 cameraModule.py: Create [Capture]: <VideoCapture 0x7f85533dca30> [Label_name]: None
+[INFO] 15:07:26 cameraModule.py: Create [Capture]: <VideoCapture 0x7f85533dcfd0> [Label_name]: None
+[INFO] 15:07:26 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f855339d8b8>] has created.
+[INFO] 15:07:26 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f855339d9d8>] has created.
+[INFO] 15:07:34 cameraModule.py: Create [Capture]: <VideoCapture 0x7f85533dcdb0> [Label_name]: cap45a2
+[INFO] 15:07:34 cameraModule.py: Create [Capture]: <VideoCapture 0x7f85533dcd90> [Label_name]: cap60a2
+[INFO] 15:07:34 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f855010ed38>] has created.
+[INFO] 15:07:34 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f855010edc8>] has created.
+[INFO] 15:07:43 cameraModule.py: Create [Capture]: <VideoCapture 0x7fe877744a30> [Label_name]: None
+[INFO] 15:07:43 cameraModule.py: Create [Capture]: <VideoCapture 0x7fe877744fd0> [Label_name]: None
+[INFO] 15:07:43 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fe8777058b8>] has created.
+[INFO] 15:07:43 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fe8777059d8>] has created.
+[INFO] 15:07:53 cameraModule.py: Create [Capture]: <VideoCapture 0x7fe877744d90> [Label_name]: cap45a2
+[INFO] 15:07:53 cameraModule.py: Create [Capture]: <VideoCapture 0x7fe877744d90> [Label_name]: cap45a2
+[INFO] 15:07:53 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fe874044d38>] has created.
+[INFO] 15:07:53 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fe874044dc8>] has created.
+[INFO] 15:07:59 cameraModule.py: Create [Capture]: <VideoCapture 0x7f7cceeaba30> [Label_name]: None
+[INFO] 15:07:59 cameraModule.py: Create [Capture]: <VideoCapture 0x7f7cceeabfd0> [Label_name]: None
+[INFO] 15:07:59 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f7ccee6c8b8>] has created.
+[INFO] 15:07:59 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f7ccee6c9d8>] has created.
+[INFO] 15:08:10 cameraModule.py: Create [Capture]: <VideoCapture 0x7f7cceeabd90> [Label_name]: cap90a1
+[INFO] 15:08:10 cameraModule.py: Create [Capture]: <VideoCapture 0x7f7cceeabd90> [Label_name]: cap90a1
+[INFO] 15:08:10 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f7ccc10bd38>] has created.
+[INFO] 15:08:10 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f7ccc10bdc8>] has created.
+[INFO] 15:08:21 cameraModule.py: Create [Capture]: <VideoCapture 0x7fbe5f7aba30> [Label_name]: None
+[INFO] 15:08:21 cameraModule.py: Create [Capture]: <VideoCapture 0x7fbe5f7abfd0> [Label_name]: None
+[INFO] 15:08:21 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fbe5f76c8b8>] has created.
+[INFO] 15:08:21 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fbe5f76c9d8>] has created.
+[INFO] 15:08:30 cameraModule.py: Create [Capture]: <VideoCapture 0x7fbe5f7abd10> [Label_name]: cap60a1
+[INFO] 15:08:30 cameraModule.py: Create [Capture]: <VideoCapture 0x7fbe5f7abd90> [Label_name]: cap90a1
+[INFO] 15:08:30 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fbe5c0abd38>] has created.
+[INFO] 15:08:30 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fbe5c0abdc8>] has created.
+[INFO] 15:08:35 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4fd401fa30> [Label_name]: None
+[INFO] 15:08:35 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4fd401ffd0> [Label_name]: None
+[INFO] 15:08:35 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4fd3fe08b8>] has created.
+[INFO] 15:08:35 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4fd3fe09d8>] has created.
+[INFO] 15:08:46 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4fd401fd10> [Label_name]: cap45a2
+[INFO] 15:08:46 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4fd401fd10> [Label_name]: cap45a2
+[INFO] 15:08:46 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4fd0037d38>] has created.
+[INFO] 15:08:46 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4fd0037dc8>] has created.
+[INFO] 15:08:51 cameraModule.py: Create [Capture]: <VideoCapture 0x7f30a9daba30> [Label_name]: None
+[INFO] 15:08:51 cameraModule.py: Create [Capture]: <VideoCapture 0x7f30a9dabfd0> [Label_name]: None
+[INFO] 15:08:51 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f30a9d6c8b8>] has created.
+[INFO] 15:08:51 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f30a9d6c9d8>] has created.
+[INFO] 15:09:00 cameraModule.py: Create [Capture]: <VideoCapture 0x7f30a9dabd90> [Label_name]: cap45a2
+[INFO] 15:09:00 cameraModule.py: Create [Capture]: <VideoCapture 0x7f30a9dabd90> [Label_name]: cap45a2
+[INFO] 15:09:00 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f30a40cad38>] has created.
+[INFO] 15:09:00 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f30a40cadc8>] has created.
+[INFO] 15:09:11 cameraModule.py: Create [Capture]: <VideoCapture 0x7f14a0a1ca30> [Label_name]: None
+[INFO] 15:09:11 cameraModule.py: Create [Capture]: <VideoCapture 0x7f14a0a1cfd0> [Label_name]: None
+[INFO] 15:09:11 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f14a09dd8b8>] has created.
+[INFO] 15:09:11 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f14a09dd9d8>] has created.
+[INFO] 15:09:19 cameraModule.py: Create [Capture]: <VideoCapture 0x7f14a0a1cd10> [Label_name]: cap45a1
+[INFO] 15:09:19 cameraModule.py: Create [Capture]: <VideoCapture 0x7f14a0a1cd90> [Label_name]: cap90a1
+[INFO] 15:09:19 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f149c035d38>] has created.
+[INFO] 15:09:19 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f149c035dc8>] has created.
+[INFO] 15:09:27 cameraModule.py: Create [Capture]: <VideoCapture 0x7f69b87fca30> [Label_name]: None
+[INFO] 15:09:27 cameraModule.py: Create [Capture]: <VideoCapture 0x7f69b87fcfd0> [Label_name]: None
+[INFO] 15:09:27 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f69b87bd8b8>] has created.
+[INFO] 15:09:27 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f69b87bd9d8>] has created.
+[INFO] 15:09:37 cameraModule.py: Create [Capture]: <VideoCapture 0x7f69b87fcd10> [Label_name]: cap60a1
+[INFO] 15:09:37 cameraModule.py: Create [Capture]: <VideoCapture 0x7f69b87fcd90> [Label_name]: cap60a2
+[INFO] 15:09:37 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f69a8185d38>] has created.
+[INFO] 15:09:37 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f69a8185dc8>] has created.
+[INFO] 15:09:58 cameraModule.py: Create [Capture]: <VideoCapture 0x7fa37c346a30> [Label_name]: None
+[INFO] 15:09:58 cameraModule.py: Create [Capture]: <VideoCapture 0x7fa37c346fd0> [Label_name]: None
+[INFO] 15:09:58 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fa37c3078b8>] has created.
+[INFO] 15:09:58 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fa37c3079d8>] has created.
+[INFO] 15:10:22 cameraModule.py: Create [Capture]: <VideoCapture 0x7fa37c346d90> [Label_name]: cap60a1
+[INFO] 15:10:22 cameraModule.py: Create [Capture]: <VideoCapture 0x7fa37c346db0> [Label_name]: cap90a2
+[INFO] 15:10:22 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fa37819cd38>] has created.
+[INFO] 15:10:22 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fa37819cdc8>] has created.
+[INFO] 15:53:23 cameraModule.py: Create [Capture]: <VideoCapture 0x7f562b65fa30> [Label_name]: None
+[INFO] 15:53:23 cameraModule.py: Create [Capture]: <VideoCapture 0x7f562b65ffd0> [Label_name]: None
+[INFO] 15:53:23 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f562b6208b8>] has created.
+[INFO] 15:53:23 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f562b6209d8>] has created.
+[INFO] 15:54:11 cameraModule.py: Create [Capture]: <VideoCapture 0x7f8f08851a30> [Label_name]: None
+[INFO] 15:54:11 cameraModule.py: Create [Capture]: <VideoCapture 0x7f8f08851fd0> [Label_name]: None
+[INFO] 15:54:11 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f8f088128b8>] has created.
+[INFO] 15:54:11 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f8f088129d8>] has created.
+[INFO] 15:54:21 cameraModule.py: Create [Capture]: <VideoCapture 0x7f8f08851d10> [Label_name]: cap45a2
+[INFO] 15:54:21 cameraModule.py: Create [Capture]: <VideoCapture 0x7f8f08851d10> [Label_name]: cap45a2
+[INFO] 15:54:21 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f8f04070d38>] has created.
+[INFO] 15:54:21 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f8f04070dc8>] has created.
+[INFO] 15:56:03 cameraModule.py: Create [Capture]: <VideoCapture 0x7ff51162da30> [Label_name]: None
+[INFO] 15:56:03 cameraModule.py: Create [Capture]: <VideoCapture 0x7ff51162dfd0> [Label_name]: None
+[INFO] 15:56:03 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7ff5115ee8b8>] has created.
+[INFO] 15:56:03 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7ff5115ee9d8>] has created.
+[INFO] 15:56:11 cameraModule.py: Create [Capture]: <VideoCapture 0x7ff51162dd90> [Label_name]: cap45a2
+[INFO] 15:56:11 cameraModule.py: Create [Capture]: <VideoCapture 0x7ff51162dd90> [Label_name]: cap45a2
+[INFO] 15:56:11 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7ff50c050d38>] has created.
+[INFO] 15:56:11 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7ff50c050dc8>] has created.
+[INFO] 15:57:05 cameraModule.py: Create [Capture]: <VideoCapture 0x7fa6785e0a30> [Label_name]: None
+[INFO] 15:57:05 cameraModule.py: Create [Capture]: <VideoCapture 0x7fa6785e0fd0> [Label_name]: None
+[INFO] 15:57:05 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fa6785a18b8>] has created.
+[INFO] 15:57:05 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fa6785a19d8>] has created.
+[INFO] 15:57:13 cameraModule.py: Create [Capture]: <VideoCapture 0x7fa6785e0d90> [Label_name]: cap45a2
+[INFO] 15:57:13 cameraModule.py: Create [Capture]: <VideoCapture 0x7fa6785e0d90> [Label_name]: cap45a2
+[INFO] 15:57:13 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fa668185d38>] has created.
+[INFO] 15:57:13 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fa668185dc8>] has created.
+[INFO] 15:57:28 cameraModule.py: Create [Capture]: <VideoCapture 0x7f2ac8679a30> [Label_name]: None
+[INFO] 15:57:28 cameraModule.py: Create [Capture]: <VideoCapture 0x7f2ac8679fd0> [Label_name]: None
+[INFO] 15:57:28 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f2ac863a8b8>] has created.
+[INFO] 15:57:28 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f2ac863a9d8>] has created.
+[INFO] 15:57:40 cameraModule.py: Create [Capture]: <VideoCapture 0x7f2ac8679d90> [Label_name]: cap45a1
+[INFO] 15:57:40 cameraModule.py: Create [Capture]: <VideoCapture 0x7f2ac8679d10> [Label_name]: cap90a1
+[INFO] 15:57:40 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f2ac40a1d38>] has created.
+[INFO] 15:57:40 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f2ac40a1dc8>] has created.
+[INFO] 16:26:32 cameraModule.py: Create [Capture]: <VideoCapture 0x7f5ec223ba30> [Label_name]: None
+[INFO] 16:26:32 cameraModule.py: Create [Capture]: <VideoCapture 0x7f5ec223bfd0> [Label_name]: None
+[INFO] 16:26:32 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f5ec21fc8b8>] has created.
+[INFO] 16:26:32 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f5ec21fc9d8>] has created.
+[INFO] 16:26:40 cameraModule.py: Create [Capture]: <VideoCapture 0x7f5ec223bdb0> [Label_name]: cap45a2
+[INFO] 16:26:40 cameraModule.py: Create [Capture]: <VideoCapture 0x7f5ec223bd90> [Label_name]: cap45a2
+[INFO] 16:26:40 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f5ebc155d38>] has created.
+[INFO] 16:26:40 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f5ebc155dc8>] has created.
+[INFO] 16:30:10 cameraModule.py: Create [Capture]: <VideoCapture 0x7f3d1bb44a30> [Label_name]: None
+[INFO] 16:30:10 cameraModule.py: Create [Capture]: <VideoCapture 0x7f3d1bb44fd0> [Label_name]: None
+[INFO] 16:30:10 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f3d1bb058b8>] has created.
+[INFO] 16:30:10 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f3d1bb059d8>] has created.
+[INFO] 16:30:19 cameraModule.py: Create [Capture]: <VideoCapture 0x7f3d1bb44db0> [Label_name]: cap45a1
+[INFO] 16:30:20 cameraModule.py: Create [Capture]: <VideoCapture 0x7f3d1bb44d90> [Label_name]: cap60a1
+[INFO] 16:30:20 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f3d0c157d38>] has created.
+[INFO] 16:30:20 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f3d0c157dc8>] has created.
+[INFO] 16:31:10 cameraModule.py: Create [Capture]: <VideoCapture 0x7f29f2369a30> [Label_name]: None
+[INFO] 16:31:10 cameraModule.py: Create [Capture]: <VideoCapture 0x7f29f2369fd0> [Label_name]: None
+[INFO] 16:31:10 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f29f232a8b8>] has created.
+[INFO] 16:31:10 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f29f232a9d8>] has created.
+[INFO] 16:31:16 cameraModule.py: Create [Capture]: <VideoCapture 0x7f29f2369d90> [Label_name]: cap45a2
+[INFO] 16:31:17 cameraModule.py: Create [Capture]: <VideoCapture 0x7f29f2369d90> [Label_name]: cap45a2
+[INFO] 16:31:17 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f29ec044d38>] has created.
+[INFO] 16:31:17 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f29ec044dc8>] has created.
+[INFO] 16:32:46 cameraModule.py: Create [Capture]: <VideoCapture 0x7fe239020a30> [Label_name]: None
+[INFO] 16:32:46 cameraModule.py: Create [Capture]: <VideoCapture 0x7fe239020fd0> [Label_name]: None
+[INFO] 16:32:46 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fe238fe1948>] has created.
+[INFO] 16:32:46 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fe238fe1a68>] has created.
+[INFO] 16:32:53 cameraModule.py: Create [Capture]: <VideoCapture 0x7fe239020d90> [Label_name]: cap45a2
+[INFO] 16:32:53 cameraModule.py: Create [Capture]: <VideoCapture 0x7fe239020d90> [Label_name]: cap45a2
+[INFO] 16:32:53 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fe23408cdc8>] has created.
+[INFO] 16:32:53 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fe23408ce58>] has created.
+[INFO] 16:44:16 cameraModule.py: Create [Capture]: <VideoCapture 0x7ff5144c7a30> [Label_name]: None
+[INFO] 16:44:16 cameraModule.py: Create [Capture]: <VideoCapture 0x7ff5144c7fd0> [Label_name]: None
+[INFO] 16:44:16 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7ff514486948>] has created.
+[INFO] 16:44:16 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7ff514486a68>] has created.
+[INFO] 16:44:26 cameraModule.py: Create [Capture]: <VideoCapture 0x7ff5144c7d10> [Label_name]: cap45a2
+[INFO] 16:44:26 cameraModule.py: Create [Capture]: <VideoCapture 0x7ff5144c7d10> [Label_name]: cap45a2
+[INFO] 16:44:26 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7ff51010edc8>] has created.
+[INFO] 16:44:26 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7ff51010ee58>] has created.
+[INFO] 16:45:32 cameraModule.py: Create [Capture]: <VideoCapture 0x7f14d08a7a30> [Label_name]: None
+[INFO] 16:45:32 cameraModule.py: Create [Capture]: <VideoCapture 0x7f14d08a7fd0> [Label_name]: None
+[INFO] 16:45:32 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f14d0867948>] has created.
+[INFO] 16:45:32 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f14d0867a68>] has created.
+[INFO] 16:45:42 cameraModule.py: Create [Capture]: <VideoCapture 0x7f14d08a7d90> [Label_name]: cap45a2
+[INFO] 16:45:42 cameraModule.py: Create [Capture]: <VideoCapture 0x7f14d08a7d90> [Label_name]: cap45a2
+[INFO] 16:45:42 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f14cc0c4dc8>] has created.
+[INFO] 16:45:42 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f14cc0c4e58>] has created.
+[INFO] 16:59:25 cameraModule.py: Create [Capture]: <VideoCapture 0x7fbefcfdba30> [Label_name]: None
+[INFO] 16:59:25 cameraModule.py: Create [Capture]: <VideoCapture 0x7fbefcfdbfd0> [Label_name]: None
+[INFO] 16:59:25 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fbefcf9c948>] has created.
+[INFO] 16:59:25 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fbefcf9ca68>] has created.
+[INFO] 16:59:34 cameraModule.py: Create [Capture]: <VideoCapture 0x7fbefcfdbd10> [Label_name]: cap45a2
+[INFO] 16:59:34 cameraModule.py: Create [Capture]: <VideoCapture 0x7fbefcfdbd90> [Label_name]: cap60a2
+[INFO] 16:59:34 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fbef8047dc8>] has created.
+[INFO] 16:59:34 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7fbef8047e58>] has created.
+[INFO] 17:00:34 cameraModule.py: Create [Capture]: <VideoCapture 0x7f0fd3dc1a30> [Label_name]: None
+[INFO] 17:00:34 cameraModule.py: Create [Capture]: <VideoCapture 0x7f0fd3dc1fd0> [Label_name]: None
+[INFO] 17:00:34 cameraModule.py: Create [Capture]: <VideoCapture 0x7f0fd3dc1d50> [Label_name]: None
+[INFO] 17:00:34 cameraModule.py: Create [Capture]: <VideoCapture 0x7f0fd3dc1d90> [Label_name]: None
+[INFO] 17:00:34 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f0fd3d82948>] has created.
+[INFO] 17:00:34 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f0fd3d82a68>] has created.
+[INFO] 17:00:34 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f0fd3d82af8>] has created.
+[INFO] 17:00:34 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f0fd3d82b88>] has created.
+[INFO] 17:00:55 cameraModule.py: Create [Capture]: <VideoCapture 0x7f0fc41b40f0> [Label_name]: cap60a1
+[INFO] 17:00:55 cameraModule.py: Create [Capture]: <VideoCapture 0x7f0fd3dc1d10> [Label_name]: cap45a2
+[INFO] 17:00:55 cameraModule.py: Create [Capture]: <VideoCapture 0x7f0fd3dc1db0> [Label_name]: cap60a2
+[INFO] 17:00:55 cameraModule.py: Create [Capture]: <VideoCapture 0x7f0fc41b4110> [Label_name]: cap90a2
+[INFO] 17:00:55 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f0fc41c4ee8>] has created.
+[INFO] 17:00:55 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f0fc41c4f78>] has created.
+[INFO] 17:00:55 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f0ff8c74048>] has created.
+[INFO] 17:00:55 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f0ff8c740d8>] has created.
+[INFO] 17:01:15 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4e21d95a30> [Label_name]: None
+[INFO] 17:01:15 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4e21d95fd0> [Label_name]: None
+[INFO] 17:01:15 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4e21d95d50> [Label_name]: None
+[INFO] 17:01:15 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4e21d95d90> [Label_name]: None
+[INFO] 17:01:15 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4e21d56948>] has created.
+[INFO] 17:01:15 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4e21d56a68>] has created.
+[INFO] 17:01:15 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4e21d56af8>] has created.
+[INFO] 17:01:15 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4e21d56b88>] has created.
+[INFO] 17:01:33 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4e21d95db0> [Label_name]: cap45a1
+[INFO] 17:01:33 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4e21d95d10> [Label_name]: cap60a1
+[INFO] 17:01:33 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4e1c0a8110> [Label_name]: cap45a2
+[INFO] 17:01:33 cameraModule.py: Create [Capture]: <VideoCapture 0x7f4e1c0a8130> [Label_name]: cap60a2
+[INFO] 17:01:33 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4e1c0b7ee8>] has created.
+[INFO] 17:01:33 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4e1c0b7f78>] has created.
+[INFO] 17:01:33 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4e46c48048>] has created.
+[INFO] 17:01:33 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f4e46c480d8>] has created.
+[INFO] 17:05:14 cameraModule.py: Create [Capture]: <VideoCapture 0x7f382e29da30> [Label_name]: None
+[INFO] 17:05:14 cameraModule.py: Create [Capture]: <VideoCapture 0x7f382e29dfd0> [Label_name]: None
+[INFO] 17:05:14 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f382e25e8b8>] has created.
+[INFO] 17:05:14 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f382e25e9d8>] has created.
+[INFO] 17:05:22 cameraModule.py: Create [Capture]: <VideoCapture 0x7f382e29dd90> [Label_name]: cap45a2
+[INFO] 17:05:22 cameraModule.py: Create [Capture]: <VideoCapture 0x7f382e29ddb0> [Label_name]: cap60a2
+[INFO] 17:05:22 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f3820134d38>] has created.
+[INFO] 17:05:22 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f3820134dc8>] has created.
+[INFO] 17:21:45 cameraModule.py: Create [Capture]: <VideoCapture 0x7f90b1bd7d10> [Label_name]: None
+[INFO] 17:21:45 cameraModule.py: Create [Capture]: <VideoCapture 0x7f90b1bd7d30> [Label_name]: None
+[INFO] 17:21:45 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f90b1bb2798>] has created.
+[INFO] 17:21:45 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f90b1bb28b8>] has created.
+[INFO] 17:21:54 cameraModule.py: Create [Capture]: <VideoCapture 0x7f90b1bd7310> [Label_name]: cap45a2
+[INFO] 17:21:54 cameraModule.py: Create [Capture]: <VideoCapture 0x7f90b1bd7fd0> [Label_name]: cap60a2
+[INFO] 17:21:54 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f90b1c51c18>] has created.
+[INFO] 17:21:54 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f90b1c51ca8>] has created.

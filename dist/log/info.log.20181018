@@ -1,0 +1,9 @@
+[INFO] 09:25:06 cameraModule.py: Create [Capture]: <VideoCapture 0x7f8a8fd22710> [Label_name]: None
+[INFO] 09:25:06 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f8a8fd26e58>] has created.
+[INFO] 09:25:13 cameraModule.py: Create [Capture]: <VideoCapture 0x7f8a8fd225d0> [Label_name]: cap45a1
+[INFO] 09:25:13 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f8a80175288>] has created.
+[INFO] 09:25:18 cameraModule.py: Create dir [/home/commaai-03/.data/20181018/123/cap45a1/1/]
+[INFO] 09:25:18 cameraModule.py: [CVID]: 123 [DIRECTION]: 1 [ACTIVED]: Start.
+[INFO] 09:25:31 cameraModule.py: [CVID]: 123 [DIRECTION]: 1 [ACTIVED]: End.
+[INFO] 13:41:50 cameraModule.py: Create [Capture]: <VideoCapture 0x7f3de037a710> [Label_name]: None
+[INFO] 13:41:50 cameraModule.py: Camera_Timer: [<cameraModule.Camera_Timer object at 0x7f3de037ee58>] has created.

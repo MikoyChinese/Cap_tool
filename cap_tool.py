@@ -189,11 +189,12 @@ class Handle():
             pass
 
     def start(self):
-        self.parent.centralWidget.close()
+        self.mainWindow.close()
         width, height, label_name_index, label_name = self.mainwindow_get_data()
         self.init_Cap = Init_Cap(self.mainWindow, width, height,
                                  label_name_index, label_name)
         self.init_Cap.show()
+        self.init_Cap.mainWindow.show()
 
 
 
@@ -222,12 +223,14 @@ class Handle():
         for each in label_names:
             label_name_index.append(origin_label_names.index(each))
 
+        tmp_lst = []
         for i in range(len(label_name_index)):
             index = 0
             for each in label_name_index:
                 if label_name_index[i] > int(each):
                     index += 1
-            label_name_index[i] = index
+            tmp_lst.append(index)
+        label_name_index = tmp_lst
         # The label_name_index will order by origin index, finally return
         # such as [1, 2, 0].
 
