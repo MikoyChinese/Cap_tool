@@ -85,7 +85,7 @@ class basicTool():
             lst.pop(1)
         if count == 4:
             lst.pop(1)
-            lst.pop(4)
+            lst.pop(3)
         if count == 5:
             lst.pop(4)
         return lst

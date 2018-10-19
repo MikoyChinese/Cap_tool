@@ -26,8 +26,7 @@ class Init_config():
         # To save the cap_label init name.
 
         # Create the
-        self.ui.origin_label_names = ["None", "cap45a1", "cap60a1", "cap90a1",
-                                   "cap45a2", "cap60a2", "cap90a2"]
+
 
         self.cap_label_name = []
         # To save all available Camera name or path.
@@ -98,7 +97,7 @@ class Init_Cap():
             cap_index = int(self.label_name_index[i])
             self.cap_label_name.append(Camera(capture=self.cap_objects[cap_index],
                                        label=self.label_lst[i],
-                                       label_name=self.label_name[cap_index],
+                                       label_name=self.label_names[cap_index],
                                        width=self.cap_width, height=self.cap_height))
 
         self.ui.cap_ok_Button.pressed.connect(self._data)
@@ -167,7 +166,7 @@ class Init_Cap():
             self.cap_width = data[0]
             self.cap_height = data[1]
             self.label_name_index = data[2]
-            self.label_name = data[3]
+            self.label_names = data[3]
 
     def update_textBrowser(self, msg):
         self.ui.textBrowser.append(msg)
@@ -192,11 +191,13 @@ class Handle():
             pass
 
     def start(self):
-        self.parent.centralWidget.close()
-        width, height, label_name_index, label_name = self.mainwindow_get_data()
+        self.mainWindow.close()
+        width, height, label_name_index, label_names = self.mainwindow_get_data()
         self.init_Cap = Init_Cap(self.mainWindow, width, height,
-                                 label_name_index, label_name)
+                                 label_name_index, label_names)
         self.init_Cap.show()
+        self.init_Cap.mainWindow.show()
+
 
 
 
@@ -224,13 +225,14 @@ class Handle():
         label_name_index = []
         for each in label_names:
             label_name_index.append(origin_label_names.index(each))
-
+        tmp_lst = []
         for i in range(len(label_name_index)):
             index = 0
             for each in label_name_index:
                 if label_name_index[i] > int(each):
                     index += 1
-            label_name_index[i] = index
+            tmp_lst.append(index)
+        label_name_index = tmp_lst
         # The label_name_index will order by origin index, finally return
         # such as [1, 2, 0].
 
